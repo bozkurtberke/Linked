@@ -1,0 +1,140 @@
+[
+  {
+    "ContainingType": "Profil.Controllers.ProfilDenetleyicisi.cs.ProfilDenetleyicisi",
+    "Method": "Get",
+    "RelativePath": "api/ProfilDenetleyicisi",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Profil.Controllers.ProfilDenetleyicisi.cs.ProfilDenetleyicisi",
+    "Method": "Guncelleme",
+    "RelativePath": "api/ProfilDenetleyicisi",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profilGuncelleme",
+        "Type": "Profil.Models.KullaniciProfili.cs.KullaniciProfili",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Profil.Controllers.ProfilDenetleyicisi.cs.ProfilDenetleyicisi",
+    "Method": "DeneyimEkleme",
+    "RelativePath": "api/ProfilDenetleyicisi/deneyim",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newDeneyim",
+        "Type": "Profil.Models.KullaniciProfili.cs.Deneyim",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Profil.Controllers.ProfilDenetleyicisi.cs.ProfilDenetleyicisi",
+    "Method": "DeneyimSilme",
+    "RelativePath": "api/ProfilDenetleyicisi/deneyim/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Profil.Controllers.ProfilDenetleyicisi.cs.ProfilDenetleyicisi",
+    "Method": "EgitimEkleme",
+    "RelativePath": "api/ProfilDenetleyicisi/e\u011Fitim",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "e\u011Fitim",
+        "Type": "Profil.Models.KullaniciProfili.cs.E\u011Fitim",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Profil.Controllers.ProfilDenetleyicisi.cs.ProfilDenetleyicisi",
+    "Method": "EgitimSilme",
+    "RelativePath": "api/ProfilDenetleyicisi/e\u011Fitim/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Profil.Controllers.ProfilDenetleyicisi.cs.ProfilDenetleyicisi",
+    "Method": "AddSkills",
+    "RelativePath": "api/ProfilDenetleyicisi/skills",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "skills",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Profil.Controllers.ProfilDenetleyicisi.cs.ProfilDenetleyicisi",
+    "Method": "DeleteSkills",
+    "RelativePath": "api/ProfilDenetleyicisi/skills/{skills}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "skills",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Profil.Controllers.KimlikDogrulamaDenetleyicisi.cs.KimlikDogrulamacs",
+    "Method": "Giris",
+    "RelativePath": "giri\u015F",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Profil.Models.GirisModeli.cs.Giris",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
