@@ -452,11 +452,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/berke/Desktop/Read.me/backend/Profil/Profil.csproj",
+      "projectUniqueName": "/Users/berke/Desktop/Linked/backend/Profil/Profil.csproj",
       "projectName": "Profil",
-      "projectPath": "/Users/berke/Desktop/Read.me/backend/Profil/Profil.csproj",
+      "projectPath": "/Users/berke/Desktop/Linked/backend/Profil/Profil.csproj",
       "packagesPath": "/Users/berke/.nuget/packages/",
-      "outputPath": "/Users/berke/Desktop/Read.me/backend/Profil/obj/",
+      "outputPath": "/Users/berke/Desktop/Linked/backend/Profil/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/berke/.nuget/NuGet/NuGet.Config"
