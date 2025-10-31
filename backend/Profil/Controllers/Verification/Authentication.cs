@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Mvc;
-using Profil.Models.GirisModeli.cs;
+using Profil.Models.Login.cs;
 
 
-namespace Profil.Controllers.KimlikDogrulamaDenetleyicisi.cs
+namespace Verification.Authentiocation
 {
 
     

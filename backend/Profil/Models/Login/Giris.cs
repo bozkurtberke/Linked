@@ -1,4 +1,4 @@
-﻿namespace Profil.Models.GirisModeli.cs
+﻿namespace Profil.Models.Login.cs
 {
     public class Giris
     {

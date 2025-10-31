@@ -1,5 +1,5 @@
 ﻿using Profil.Models;
-using Profil.Models.GirisModeli.cs;
+using Profil.Models.Login.cs;
 using Profil.Models.KullaniciProfili.cs;
 using System.Collections.Generic;
 using System.Linq;
